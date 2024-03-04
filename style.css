@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+border: border-box;
+font-family: Arial, Helvetica, sans-serif, sans-serif;
+line-height: auto;
+text-decoration: none; 
+
+}
+
+.AvatarGif {
+    width: 100px;
+}
+
+.hero {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_header {
+    display: flex;
+    display: block;
+    text-align: center;  
+}
+
+.hero_heading{
+    font-size: 40px;
+}
+
+.hero_subheading{
+    font-weight: medium ;
+}
+
+.hero_button{
+    
+    background-color: #121212;
+    color: #610202;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    
+    
+    
+
+}
+    
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+footer{
+    font-size: 13.6px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    bottom: 0;
+    
+}
+    
+
+
+    
