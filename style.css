@@ -33,7 +33,8 @@ word-wrap: break-word;
 .hero_heading{
     font-size: 40px;
     text-align: center; 
-    color: #050505; 
+    color: #050505;
+    
 }
 
 .hero_subheading{
@@ -51,12 +52,14 @@ button{
     border: none; 
     margin: 20px;
 
+
+
 }
 p:active{
-    color
+    color:#ffffff
 }
 .hero_button:hover{
-    background-color: rgba(12,12,12, 0.9);
+    background-color: rgba(12,12,12, 0.7);
 }
 
 }
@@ -81,7 +84,9 @@ h3,p:hover{
     color:#050505
 }
 
-
+.miscellaneous_heading {
+    margin-top: 10px;
+}
 
 
 
@@ -90,14 +95,71 @@ ul{
     align-items: center;
     justify-content: space-evenly;
     margin: 50px;
-    
-    
+
 }
+
+li{
+
+    border: 2px;
+    border-style: solid;
+    border-color:rgba(00,00,00,0.08);
+    border-radius: 12px;
+    padding: 25px;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#hero_p1:hover{
+    color: #0A85D1;
+}
+
+#hero_p2:hover{
+    color: #EA4E43;
+}
+
+#hero_p3:hover{
+color: #9D34DA;
+}
+
+
+.hero_p:active{
+    color: #050505;
+}
+
+.hero_p:focus{
+    color: #050505;
+}
+
+.hero_p:visited{
+    color: #050505;
+}
+
+
+
+
+hr{
+    color: rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 40%;
+}
+
 
 footer{
     font-size: 13.6px;
     text-align: center;
     color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
 
 }
     
