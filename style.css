@@ -6,7 +6,7 @@ font-family: Arial, Helvetica, sans-serif, sans-serif;
 line-height: auto;
 text-decoration: none; 
 list-style-type: none;
-word-wrap: break-word;
+
 
 
 }
@@ -178,7 +178,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 50px;
+    margin: 40px;
     flex-wrap: wrap;
     
     
@@ -213,9 +213,128 @@ footer{
 color: #0A85D1;
 }
 
+h4 {
+    color: #050505;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+/* miscellaneous */
+
+
+.ul3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.li3{
+    width: 65%;
+    
+    border: 2px;
+    border-style: solid;
+    border-color:rgba(00,00,00,0.08);
+    background-color: #F6F5F4;
+    border-radius: 12px;
+    padding: 18px;
+    margin-block: 25px;
+   
+}
 
 
 
+.li3:hover{
+    background-color: #FFFFFF
+}
+
+#misc_p1:hover{
+    color: #F8792A;
+}
+
+#misc_p2:hover{
+    color: #9D34DA;
+}
+
+#misc_p3:hover{
+color: #EA4E43;
+}
+
+#misc_p4:hover{
+    color: #F5A300;
+    }
+
+#misc_p5:hover{
+color: #FAA700;
+}
+
+#misc_p6:hover{
+    color: #0A85D1;
+
+    }
+
+
+.th{
+    padding: 10px;
+    color: #050505;
+    border-spacing:0cap
+}
+
+td {
+    padding-right: 50px
+}
+
+.misc_p6 label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.misc_p6 input[type="text"] {
+
+    border: 1px solid rgba(00,00,00,0.08);
+    padding: 12px;
+    box-sizing: border-box;
+    width: 65%;
+    resize: vertcal;
+    border-radius: 5px;
+
+}
+
+#message {
+    height: 100px;
+}
+
+.misc_p6 input[type="submit"] {
+    background-color: #121212;
+    color: #ffffff !important;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: none; 
+    margin-top: 28px;
+    cursor: grab;
+
+}
+
+#submit_button:hover {
+    background-color: rgba(12,12,12, 0.7);
+}
+
+#tools_used {
+    height: 120x;
+}
+
+#tools_used_svg {
+    margin-top:  15px;
+    width: 12%;
+}
 
 
     
