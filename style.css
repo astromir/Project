@@ -81,7 +81,7 @@ p:active{
 }
 
 h3,p:hover{
-    color:#050505
+    color:#050505:
 }
 
 .miscellaneous_heading {
@@ -103,10 +103,16 @@ li{
     border: 2px;
     border-style: solid;
     border-color:rgba(00,00,00,0.08);
+    background-color: #F6F5F4;
     border-radius: 12px;
     padding: 25px;
     margin-left: -100px;
     margin-right: -100px;
+}
+
+li:hover{
+    background-color: #FFFFFF;
+
 }
 
 h3{
@@ -128,15 +134,15 @@ color: #9D34DA;
 
 
 .hero_p:active{
-    color: #050505;
+    color: #050505 !important;
 }
 
 .hero_p:focus{
-    color: #050505;
+    color: #050505 !important;
 }
 
 .hero_p:visited{
-    color: #050505;
+    color: #050505 !important;
 }
 
 
