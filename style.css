@@ -8,6 +8,7 @@ text-decoration: none;
 list-style-type: none;
 word-wrap: break-word;
 
+
 }
 
 .AvatarGif {
@@ -62,7 +63,7 @@ p:active{
     background-color: rgba(12,12,12, 0.7);
 }
 
-}
+
 .home_link:hover {
     
     color:#ffffff
@@ -81,14 +82,16 @@ p:active{
 }
 
 h3,p:hover{
-    color:#050505:
+    color:#050505
 }
 
 .miscellaneous_heading {
     margin-top: 10px;
 }
 
-
+p {
+    color: #050505;
+}
 
 ul{
     display: flex;
@@ -134,15 +137,15 @@ color: #9D34DA;
 
 
 .hero_p:active{
-    color: #050505 !important;
+    color: #050505;
 }
 
 .hero_p:focus{
-    color: #050505 !important;
+    color: #050505;
 }
 
 .hero_p:visited{
-    color: #050505 !important;
+    color: #050505;
 }
 
 
